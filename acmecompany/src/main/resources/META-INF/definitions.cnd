@@ -1,0 +1,9 @@
+<emplnt = 'http://acmecompany.com/empl/nt/1.0'>
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+
+[emplnt:employee] > jnt:content, jmix:structuredContent
+ itemtype = content
+ - firstName (string, richtext)
+ - lastName (string, richtext)
+
